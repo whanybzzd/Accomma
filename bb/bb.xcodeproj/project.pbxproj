@@ -15,6 +15,7 @@
 		9AE456D72128346500F730B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AE456D52128346500F730B0 /* LaunchScreen.storyboard */; };
 		9AE456E22128346500F730B0 /* bbTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE456E12128346500F730B0 /* bbTests.swift */; };
 		9AE456ED2128346500F730B0 /* bbUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE456EC2128346500F730B0 /* bbUITests.swift */; };
+		9AE456FC2128354900F730B0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE456FB2128354900F730B0 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9AE456E82128346500F730B0 /* bbUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bbUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE456EC2128346500F730B0 /* bbUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bbUITests.swift; sourceTree = "<group>"; };
 		9AE456EE2128346500F730B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE456FB2128354900F730B0 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		9AE456C82128346400F730B0 /* bb */ = {
 			isa = PBXGroup;
 			children = (
+				9AE456FA2128353600F730B0 /* ZMJ */,
 				9AE456C92128346400F730B0 /* AppDelegate.swift */,
 				9AE456CB2128346400F730B0 /* ViewController.swift */,
 				9AE456CD2128346400F730B0 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				9AE456EE2128346500F730B0 /* Info.plist */,
 			);
 			path = bbUITests;
+			sourceTree = "<group>";
+		};
+		9AE456FA2128353600F730B0 /* ZMJ */ = {
+			isa = PBXGroup;
+			children = (
+				9AE456FB2128354900F730B0 /* BaseViewController.swift */,
+			);
+			path = ZMJ;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9AE456CC2128346400F730B0 /* ViewController.swift in Sources */,
+				9AE456FC2128354900F730B0 /* BaseViewController.swift in Sources */,
 				9AE456CA2128346400F730B0 /* AppDelegate.swift in Sources */,
 				9AE456D22128346400F730B0 /* bb.xcdatamodeld in Sources */,
 			);
